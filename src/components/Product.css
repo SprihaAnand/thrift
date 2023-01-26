@@ -1,0 +1,44 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    max-width: 200px;
+    color: white;
+    font-weight: 1000;
+    background-image: url(https://cdn.wallpapersafari.com/56/32/4fZkCh.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.product>img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.product-price{
+    margin-top: 5px;
+}
+.product>button{
+    background: rgb(33, 1, 38);
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+.product>button:hover{
+    background-color: rgb(69, 2, 79);
+}
+.product-rating{
+    display: flex;
+}
